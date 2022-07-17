@@ -1,13 +1,11 @@
-<center>
-<font size=84> Meme App </font>
-</center>
+# Meme App
 
 An Electron App For Windows Which Gives You Random Memes From Reddit At The Press Of A Button
 All In An Overley Done UI
 
-###How To Build:
+### How To Build:
 
-#####Prerequisites:
+##### Prerequisites:
 * Node.JS
 * NPM
 * Inno Setup Compiler (optional)
