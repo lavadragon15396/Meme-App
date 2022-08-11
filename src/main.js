@@ -10,7 +10,7 @@ function createWindow() {
 		resizable: false,
 		autoHideMenuBar: true,
 		titleBarStyle: "hidden",
-		icon: "assets/icons/icon.png",
+		icon: "assets/icons/appIcon.png",
 		webPreferences: {
 			nodeIntegration: true,
 			enableRemoteModule: true,
