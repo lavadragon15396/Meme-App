@@ -13,10 +13,10 @@ All In An Overley Done UI
 
 Run the following commands:
 ```bash
-$ git clone https://github.com/lavadaragon15396/Meme-App
-$ cd Meme-App\src
-$ npm i
-$ npm run build
+git clone https://github.com/lavadaragon15396/Meme-App
+cd Meme-App\src
+npm i
+npm run build
 ```
 
 Then Either Locate The Build Folder Or Compile The .ISS Script (Replacing The File Paths To Match Your Directories) And Run The Setup Utillity
