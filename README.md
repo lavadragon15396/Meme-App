@@ -12,7 +12,7 @@ All In An Overley Done UI
 
 
 Run the following commands:
-```bash
+```
 git clone https://github.com/lavadaragon15396/Meme-App
 cd Meme-App\src
 npm i
