@@ -8,6 +8,8 @@ function getMeme() {
 		.then(function (jsonResponse) {
 			if (jsonResponse.nsfw) return getMeme().then();
 			document.getElementById("memeImage").src = jsonResponse.url;
+			document.getElementById("memeLink").href = jsonResponse.url;
+			document.getElementById("memeLink").download = jsonResponse.url.substr(18);
 			setTimeout(() => {
 				scroll({
 					behavior: "smooth",
