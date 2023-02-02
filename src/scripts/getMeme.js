@@ -1,7 +1,7 @@
 function getMeme() {
 	var subSelect = document.getElementById("subs");
 	var sub = subSelect.options[subSelect.selectedIndex].value;
-	fetch(`https://meme-api.herokuapp.com/gimme/${sub}`)
+	fetch(`https://meme-api.com/gimme/${sub}`)
 		.then(function (response) {
 			return response.json();
 		})
